@@ -1,0 +1,60 @@
+html{
+    color: white !important;
+    font-size: 100px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+}
+
+.header{
+    background-color: black;
+    font-size: 28px;
+    width: 96.3%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    height: 12%;
+}
+
+.cal{
+    
+    height: 400px;
+    width: 400px;
+    
+    
+    /* background-color: aqua; */
+    /* border: 2px black solid; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.display{
+    min-width: 96% ;
+    min-height: 24%;
+    text-align: right;
+    background-color:rgb(64, 68, 73);
+    font-size: 60px;
+}
+.cal>button[type="submit"]{
+    min-width: 24% !important;
+    min-height: 24% !important;
+    border: 1px solid black !important;
+    font-size: 30px !important;
+    color: white;
+}
+.cal>button.zero{
+    min-width: 48% !important;
+}
+
+/*common classes*/
+.light-grey{
+    background-color: rgb(83, 86, 92);
+    
+}
+.or{
+    background-color: rgb(255, 157, 0);
+}
+.gr{
+    background-color: rgb(103, 106, 108);
+}
